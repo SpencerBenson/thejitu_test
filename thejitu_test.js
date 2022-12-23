@@ -33,8 +33,8 @@ function leastNumberOfFilters(companies) {
   return filtersUsed;
 }
 const companies1 = [100,50,60,40]
-console.log(leastNumberOfFilters(companies1))
+console.log(leastNumberOfFilters(companies1)) // returns 4
 const companies2 = [10000,50,60,40]
-console.log(leastNumberOfFilters(companies2))
+console.log(leastNumberOfFilters(companies2)) // returns 2
 const companies3 = [10,50,60,40,60,78,21,1,78,5,3,8]
-console.log(leastNumberOfFilters(companies3))
+console.log(leastNumberOfFilters(companies3)) // returns 8
